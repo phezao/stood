@@ -1,33 +1,32 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  hello: "Hello World!"
+  pages:
+    home:
+      title: "Find the professor that understands you"
+      benefit1: "You're the focus"
+      description1: "The professor has 100% of his attention on you. Have no distractions and focus on your own difficulties and doubts. The professors understand where are your weakens and build the class around that to make the it as clear as possible."
+      benefit2: "Wherever you want"
+      description2: "Online classes enables to connect to the best professors in the whole country, without having to pay for any transport. Besides that, Stood analyze each professors profile before they’re able to give classes. The best experience has to guarantee to both sides."
+
+      benefit3: "Master apprentice"
+      description3: "The professor understands you, he has been through the same situation not so long ago. Have mentorship, inspiration and tips on how to ace those final exams. Learn from whom has been to that."
+
+      action_section: "Try out and see how learning can actually be cool with the right professor"
+
+      cta: "Get started"
+
+      get_help: "Have classes in:"
+
+      math: "Math"
+      essay: "Essay"
+      history: "History"
+      physics:  "Physics"
+      chemistry:  "Chemistry"
+      biology: "Biology"
+      cta2:  "Explore"
+
+      wts: "What they say:"
+      testm:   "It was way beyond my expectations! The professor is very attentive and he structured his class around my doubt!"
+
+      us: "Who we are"
+      contact: "Contact"

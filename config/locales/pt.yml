@@ -1,0 +1,32 @@
+pt:
+  hello: "Olá mundo!"
+  pages:
+    home:
+      title: "Encontre o professor que te entende"
+      benefit1: "Foco em você"
+      description1: "O professor tem atenção 100% em você. Não tenha distrações e foque nas dificuldades e dúvidas que você tem. Os professores buscam entender quais as dúvidas dos alunos antes da aula para conseguirem tornar a aula da maneira mais clara possível."
+      benefit2: "Onde quiser"
+      description2: "Aulas online possibilita conectar-se com os melhores professores no país inteiro, sem ninguém precisar gastar com deslocamento. Além disso, a Stood analisa o perfil dos professores antes de poderem dar aulas para entender se encaixam no modelo. A melhor experiência precisa ser garantida para todos!"
+
+      benefit3: "Mestre aprendiz"
+      description3: "O professor que te entende, que passou pela mesma situação que você a não muito tempo atrás e sabe como atravessar essas dificuldades. Aprenda com quem já passou por isso."
+
+      action_section: "Experimente uma aula e veja como aprender poder ser legal com o professor certo"
+
+      cta: "Começar"
+
+      get_help: "Receba ajuda em:"
+
+      math: "Matemática"
+      essay: "Redação"
+      history: "História"
+      physics:  "Física"
+      chemistry:  "Química"
+      biology: "Biologia"
+      cta2:  "Explorar"
+
+      wts: "O que dizem:"
+      testm:   "Superou muito minhas expectativas! O professor é muito atencioso e montam a aula emcima da sua dúvida."
+
+      us: "Quem somos"
+      contact: "Contato"
