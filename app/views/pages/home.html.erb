@@ -1,31 +1,87 @@
-<h1><%= t(".title") %></h1>
+<div class="herobanner"></div>
+<div id="banner">
+  <div class="container-xl">
+    <div class="row">
+      <div class="d-flex">
+        <div class="left">
+          <h1><%= t(".title") %></h1>
+          <%= render 'shared/search' %>
+        </div>
+        <%= image_tag "student.png", alt: "student", id: "student", class: "d-none d-sm-block" %>
+      </div>
+    </div>
+  </div>
+</div>
 
-<h2><%= t(".benefit1") %></h2>
-<p><%= t(".description1") %></p>
-<h2><%= t(".benefit2") %></h2>
-<p><%= t(".description2") %></p>
-<h2><%= t(".benefit3") %></h2>
-<p><%= t(".description3") %></p>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-xl-8">
+      <h2 class="d-block d-sm-none"><%= t(".benefit1") %></h2>
+      <%= image_tag "teaching.svg", alt: "alttext", class: "draw" %>
+    </div>
+    <div class="col-12 col-xl-4">
+      <h2 class="d-none d-xl-block"><%= t(".benefit1") %></h2>
+      <p><%= t(".description1") %></p>
+    </div>
+  </div>
 
-<h2><%= t(".action_section") %></h2>
-<a href="#" class="btn btn-primary"><%= t(".cta") %></a>
+  <div class="row">
+    <div class="col-12 col-xl-4">
+      <h2 class="d-none d-xl-block"><%= t(".benefit2") %></h2>
+      <p class="d-none d-xl-block"><%= t(".description2") %></p>
+    </div>
+    <div class="col-12 col-xl-8">
+      <h2 class="d-block d-sm-none"><%= t(".benefit2") %></h2>
+      <%= image_tag "phone.svg", alt: "alttext", class: "draw" %>
+      <p class="d-block d-sm-none"><%= t(".description2") %></p>
 
-<h2><%= t(".get_help") %></h2>
-<ul>
-  <li><%= t(".math") %></li>
-  <li><%= t(".essay") %></li>
-  <li><%= t(".history") %></li>
-  <li><%= t(".biology") %></li>
-  <li><%= t(".chemistry") %></li>
-  <li><%= t(".physics") %></li>
-</ul>
+    </div>
+  </div>
 
-<a href="#" class="btn btn-primary"><%= t(".cta2") %></a>
+  <div class="row">
+    <div class="col-12 col-xl-8">
+      <h2 class="d-block d-sm-none"><%= t(".benefit3") %></h2>
+      <%= image_tag "teacher.svg", alt: "alttext", class: "draw" %>
+    </div>
+    <div class="col-12 col-xl-4">
+      <h2 class="d-none d-xl-block"><%= t(".benefit3") %></h2>
+      <p><%= t(".description3") %></p>
+    </div>
+  </div>
 
-<h2><%= t(".wts") %></h2>
-<ul>
-  <li><%= t(".testm") %></li>
-</ul>
 
-<a href="#"><%= t(".us") %></a>
-<a href="#"><%= t(".contact") %></a>
+
+  <div class="row">
+    <div class="col-12 col-lx-12">
+      <h2><%= t(".action_section") %></h2>
+      <a href="#" class="btn btn-primary"><%= t(".cta") %></a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 col-xl-12">
+      <%= image_tag "fake_news.jpg", alt: "fake_news", class: "news" %>
+      <%= image_tag "sensacionalista.jpg", alt: "sensacionalista", class: "news" %>
+    </div>
+  </div>
+
+  <div class="row">
+    <h2><%= t(".get_help") %></h2>
+    <ul>
+      <li><%= t(".math") %></li>
+      <li><%= t(".essay") %></li>
+      <li><%= t(".history") %></li>
+      <li><%= t(".biology") %></li>
+      <li><%= t(".chemistry") %></li>
+      <li><%= t(".physics") %></li>
+    </ul>
+    <a href="#" class="btn btn-primary"><%= t(".cta2") %></a>
+  </div>
+
+  <div class="row">
+    <h2><%= t(".wts") %></h2>
+    <ul>
+      <li><%= t(".testm") %></li>
+    </ul>
+  </div>
+</div>

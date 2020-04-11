@@ -1,1 +1,29 @@
 // Specific CSS for your home-page
+#student{
+  height: 600px;
+  z-index: 1;
+}
+
+.draw{
+  width: 250px;
+}
+
+.news{
+  width: 250px;
+}
+
+#banner{
+  background-color: #FFF1CF;
+  height: 600px;
+}
+
+.herobanner{
+  width: 640px;
+  height: 800px;
+  background-color: #FFD369;
+  z-index: 0;
+  position: absolute;
+  transform: rotate(-20deg);
+  left: 821px;
+  top: -182px;
+}
