@@ -3,6 +3,9 @@ pt:
   pages:
     home:
       title: "Encontre o professor que te entende"
+      subject: "Matéria:"
+      date: "Data:"
+      search: "Buscar"
       benefit1: "Foco em você"
       description1: "O professor tem atenção 100% em você. Não tenha distrações e foque nas dificuldades e dúvidas que você tem. Os professores buscam entender quais as dúvidas dos alunos antes da aula para conseguirem tornar a aula da maneira mais clara possível."
       benefit2: "Onde quiser"
@@ -11,7 +14,7 @@ pt:
       benefit3: "Mestre aprendiz"
       description3: "O professor que te entende, que passou pela mesma situação que você a não muito tempo atrás e sabe como atravessar essas dificuldades. Aprenda com quem já passou por isso."
 
-      action_section: "Experimente uma aula e veja como aprender poder ser legal com o professor certo"
+      action_section: "Agende sua primeira aula agora!"
 
       cta: "Começar"
 

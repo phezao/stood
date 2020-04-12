@@ -3,6 +3,9 @@ en:
   pages:
     home:
       title: "Find the professor that understands you"
+      subject: "Subject:"
+      date: "Date:"
+      search: "Search"
       benefit1: "You're the focus"
       description1: "The professor has 100% of his attention on you. Have no distractions and focus on your own difficulties and doubts. The professors understand where are your weakens and build the class around that to make the it as clear as possible."
       benefit2: "Wherever you want"
@@ -11,7 +14,7 @@ en:
       benefit3: "Master apprentice"
       description3: "The professor understands you, he has been through the same situation not so long ago. Have mentorship, inspiration and tips on how to ace those final exams. Learn from whom has been to that."
 
-      action_section: "Try out and see how learning can actually be cool with the right professor"
+      action_section: "Schedule your first class now!"
 
       cta: "Get started"
 

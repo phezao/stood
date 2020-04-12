@@ -10,6 +10,16 @@
 
 .news{
   width: 250px;
+  filter: grayscale(100%);
+}
+#fake_news{
+  width: 120px;
+}
+.media{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  margin: 56px 0;
+  align-items: center;
+  padding-top: 24px;
 }
 
 #banner{
@@ -26,4 +36,37 @@
   transform: rotate(-20deg);
   left: 821px;
   top: -182px;
+}
+
+// .hero{
+//   background-image: url(rectangle.png);
+//   background-size: cover;
+//   width: 1000px;
+//   height: 800px;
+//   z-index: 0;
+//   position: absolute;
+//   left: 800px;
+//   top: -180px;
+// }
+
+// <%= image_tag "student.png", alt: "student", id: "student", class: "d-none d-sm-block" %>
+
+// .student{
+//   background-image: url(student.png);
+//   background-size: cover;
+//   width: 693px;
+//   height: 579px;
+//   position: absolute;
+//   left: 1100px;
+//   top: 86px;
+
+// }
+
+#ben2{
+  background-color: rgba(255, 211, 105, 0.52);
+}
+body{
+  p{
+    font-size: 22px;
+  }
 }

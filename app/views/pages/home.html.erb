@@ -1,31 +1,33 @@
-<div class="herobanner"></div>
+<div class="hero"></div>
 <div id="banner">
   <div class="container-xl">
     <div class="row">
       <div class="d-flex">
         <div class="left">
-          <h1><%= t(".title") %></h1>
+          <h1 style="font-size: 48px;"><%= t(".title") %></h1>
           <%= render 'shared/search' %>
         </div>
-        <%= image_tag "student.png", alt: "student", id: "student", class: "d-none d-sm-block" %>
+        <div class="student"></div>
       </div>
     </div>
   </div>
 </div>
 
 <div class="container">
+<!-- benefício 1 -->
   <div class="row">
     <div class="col-12 col-xl-8">
       <h2 class="d-block d-sm-none"><%= t(".benefit1") %></h2>
       <%= image_tag "teaching.svg", alt: "alttext", class: "draw" %>
     </div>
     <div class="col-12 col-xl-4">
-      <h2 class="d-none d-xl-block"><%= t(".benefit1") %></h2>
-      <p><%= t(".description1") %></p>
+      <h2 class="d-none d-xl-block" style="font-size: 32px;"><%= t(".benefit1") %></h2>
+      <p class="my-4"><%= t(".description1") %></p>
     </div>
   </div>
-
-  <div class="row">
+<!-- fim benefício 1 -->
+<!-- benefício 2 -->
+  <div class="row" id="ben2">
     <div class="col-12 col-xl-4">
       <h2 class="d-none d-xl-block"><%= t(".benefit2") %></h2>
       <p class="d-none d-xl-block"><%= t(".description2") %></p>
@@ -34,10 +36,11 @@
       <h2 class="d-block d-sm-none"><%= t(".benefit2") %></h2>
       <%= image_tag "phone.svg", alt: "alttext", class: "draw" %>
       <p class="d-block d-sm-none"><%= t(".description2") %></p>
-
     </div>
   </div>
+<!-- fim do benefício 2 -->
 
+<!-- benefício 3 -->
   <div class="row">
     <div class="col-12 col-xl-8">
       <h2 class="d-block d-sm-none"><%= t(".benefit3") %></h2>
@@ -48,40 +51,73 @@
       <p><%= t(".description3") %></p>
     </div>
   </div>
+<!-- fim do benefício 3 -->
 
 
-
-  <div class="row">
-    <div class="col-12 col-lx-12">
+  <div class="row my-5">
+    <div class="col-12 col-lx-12 text-center">
       <h2><%= t(".action_section") %></h2>
-      <a href="#" class="btn btn-primary"><%= t(".cta") %></a>
+      <a href="#" class="btn btn-primary mt-5"><%= t(".cta") %></a>
     </div>
   </div>
-
-  <div class="row">
-    <div class="col-12 col-xl-12">
-      <%= image_tag "fake_news.jpg", alt: "fake_news", class: "news" %>
-      <%= image_tag "sensacionalista.jpg", alt: "sensacionalista", class: "news" %>
+  <div class="container-fluid">
+    <div class="row media text-center">
+      <div class="col-12 col-xl-12">
+        <%= image_tag "fake_news.png", alt: "fake_news", class: "news", id: "fake_news" %>
+        <%= image_tag "sensacionalista.jpg", alt: "sensacionalista", class: "news" %>
+      </div>
     </div>
   </div>
 
   <div class="row">
     <h2><%= t(".get_help") %></h2>
-    <ul>
-      <li><%= t(".math") %></li>
-      <li><%= t(".essay") %></li>
-      <li><%= t(".history") %></li>
-      <li><%= t(".biology") %></li>
-      <li><%= t(".chemistry") %></li>
-      <li><%= t(".physics") %></li>
+    <ul class="d-none d-xl-block">
+    <div class="d-flex flex-wrap" style="width: 1200px;">
+      <li class="subject-card">
+        <%= image_tag "logo.png", alt: "alttext" %>
+        <p><%= t(".math") %></p>
+      </li>
+      <li class="subject-card"><%= t(".essay") %></li>
+      <li class="subject-card"><%= t(".history") %></li>
+      <li class="subject-card"><%= t(".biology") %></li>
+      <li class="subject-card"><%= t(".chemistry") %></li>
+      <li class="subject-card"><%= t(".physics") %></li>
+    </div>
     </ul>
-    <a href="#" class="btn btn-primary"><%= t(".cta2") %></a>
+    <div id="carouselExampleIndicators" class="carousel slide d-block d-xl-none" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <%= image_tag "logo.png", class: "d-block w-100" %>
+        </div>
+        <div class="carousel-item">
+          <%= image_tag "fake_news.png", class: "d-block w-100" %>
+        </div>
+        <div class="carousel-item">
+          <%= image_tag "sensacionalista.jpg", class: "d-block w-100" %>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
   </div>
+  <a href="#" class="btn btn-primary"><%= t(".cta2") %></a>
 
   <div class="row">
     <h2><%= t(".wts") %></h2>
     <ul>
-      <li><%= t(".testm") %></li>
+      <li class="testimonial">
+        <p><%= t(".testm") %></li></p>
     </ul>
   </div>
 </div>
