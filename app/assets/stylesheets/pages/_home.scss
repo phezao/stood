@@ -24,7 +24,7 @@
 
 #banner{
   background-color: #FFF1CF;
-  height: 600px;
+  padding: 240px 0;
 }
 
 .herobanner{
@@ -61,10 +61,13 @@
 //   top: 86px;
 
 // }
-
+.section{
+  padding: 160px 0;
+}
 #ben2{
   background-color: rgba(255, 211, 105, 0.52);
 }
+
 body{
   p{
     font-size: 22px;

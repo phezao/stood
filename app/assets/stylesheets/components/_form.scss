@@ -1,9 +1,9 @@
-// .search_form{
-//   width: 754px;
-//   height: 216px;
-//   background-color: #FFFFFF;
-//   border-radius: 4px;
-// }
+.search_form{
+  padding: 58px 33px;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  margin: 24px;
+}
 
 input{
   border-radius: 5px;
@@ -14,4 +14,7 @@ input{
 input::placeholder{
   color: #B4B4B4;
   padding-left: 8px;
+}
+.group{
+  display: inline-block;
 }

@@ -10,6 +10,12 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <%= link_to "EN", "/en", class: "nav-link" %>
+      </li>
+      <li class="nav-item">
+        <%= link_to "PT", "/", class: "nav-link" %>
+      </li>
       <% if user_signed_in? %>
         <li class="nav-item active">
           <%= link_to "Home", "#", class: "nav-link" %>
@@ -28,12 +34,6 @@
       <% else %>
         <li class="nav-item">
           <%= link_to "Login", new_user_session_path, class: "nav-link" %>
-        </li>
-        <li class="nav-item">
-          <%= link_to "EN", "/en", class: "nav-link" %>
-        </li>
-        <li class="nav-item">
-          <%= link_to "PT", "/", class: "nav-link" %>
         </li>
       <% end %>
     </ul>
