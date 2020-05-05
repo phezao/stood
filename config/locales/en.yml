@@ -31,5 +31,7 @@ en:
       wts: "What they say:"
       testm:   "It was way beyond my expectations! The professor is very attentive and he structured his class around my doubt!"
 
-      us: "Who we are"
-      contact: "Contact"
+      us: "About us"
+      contact: "Contact us"
+      call: "Call us"
+      email: "Or send us an email"

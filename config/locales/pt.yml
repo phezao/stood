@@ -31,5 +31,7 @@ pt:
       wts: "O que dizem:"
       testm:   "Superou muito minhas expectativas! O professor é muito atencioso e montam a aula emcima da sua dúvida."
 
-      us: "Quem somos"
-      contact: "Contato"
+      us: "Sobre nós"
+      contact: "Contate a nós"
+      call: "Ligue para nós"
+      email: "Ou mande-nos um e-mail"
