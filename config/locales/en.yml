@@ -3,22 +3,17 @@ en:
   pages:
     home:
       title: "Find the professor that understands you"
-      subject: "Subject:"
-      date: "Date:"
-      search: "Search"
-      benefit1: "You're the focus"
-      description1: "The professor has 100% of his attention on you. Have no distractions and focus on your own difficulties and doubts. The professors understand where are your weakens and build the class around that to make the it as clear as possible."
-      benefit2: "Wherever you want"
-      description2: "Online classes enables to connect to the best professors in the whole country, without having to pay for any transport. Besides that, Stood analyze each professors profile before they’re able to give classes. The best experience has to guarantee to both sides."
-
-      benefit3: "Master apprentice"
-      description3: "The professor understands you, he has been through the same situation not so long ago. Have mentorship, inspiration and tips on how to ace those final exams. Learn from whom has been to that."
-
-      action_section: "Schedule your first class now!"
-
+      subtitle: "Connect with professors who knows that teaching isn't about throwing the material on your face."
       cta: "Get started"
 
-      get_help: "Have classes in:"
+      stats1: "Students who didn't use!"
+      stats2: "Subjects"
+      stats3: "Is a big number!"
+
+      benefit1: "You're the focus"
+      description1: "The professor has 100% of his attention on you. Have no distractions and focus on your own difficulties and doubts. The professors understand where are your weakens and build the class around that to make the it as clear as possible."
+      benefit2: "Master apprentice"
+      description2: "The professor understands you, he has been through the same situation not so long ago. Have mentorship, inspiration and tips on how to ace those final exams. Learn from whom has been to that."
 
       math: "Math"
       essay: "Essay"
@@ -28,8 +23,9 @@ en:
       biology: "Biology"
       cta2:  "Explore"
 
-      wts: "What they say:"
-      testm:   "It was way beyond my expectations! The professor is very attentive and he structured his class around my doubt!"
+      wts: "Testimonials"
+      testm-title:   "It was way beyond my expectations!"
+      testm-subtitle:   "The professor is very attentive and he structured his class around my doubt!"
 
       us: "About us"
       contact: "Contact us"

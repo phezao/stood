@@ -1,17 +1,11 @@
-<div class="hero"></div>
-<div id="banner">
-  <div class="container">
-    <div class="row">
-      <div class="d-flex">
-        <div class="left">
-          <h1 style="font-size: 48px;"><%= t(".title") %></h1>
-          <%= render 'shared/search' %>
-        </div>
-        <div class="student"></div>
-      </div>
-    </div>
+<section id="hero" class="">
+  <%= image_tag "Rectangle 14.svg", alt: "alttext" %>
+  <div class="container text-center">
+    <h1><%= t(".title") %></h1>
+    <h2><%= t(".subtitle") %></h2>
+    <%= link_to t(".cta"), new_user_registration_path, class: "btn btn-primary" %>
   </div>
-</div>
+</section>
 
 <section class="section">
   <div class="container">
