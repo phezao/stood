@@ -2,7 +2,7 @@
 
 <!-- Hero Banner -->
 
-<section id="hero" class="section">
+<section id="hero">
   <div class="container text-center mt-5">
     <h1 class="pt-4"><%= t(".title") %></h1>
     <h2><%= t(".subtitle") %></h2>
@@ -12,7 +12,7 @@
 
 <!-- Statistics -->
 
-<section class="mt-5" id="statistics">
+<section id="statistics">
   <div class="container">
     <div class="row">
       <div class="col-md-4 text-center">
@@ -31,90 +31,89 @@
   </div>
 </section>
 
-<div class="container section">
 <!-- benefício 1 -->
-  <div class="row">
-    <div class="col-12 col-xl-8">
-      <h2 class="d-block d-sm-none"><%= t(".benefit1") %></h2>
-    </div>
-    <div class="col-12 col-xl-4">
-      <h2 class="d-none d-xl-block" style="font-size: 32px;"><%= t(".benefit1") %></h2>
-      <p class="my-4"><%= t(".description1") %></p>
-    </div>
-  </div>
-</div>
-<!-- fim benefício 1 -->
-<!-- benefício 2 -->
-<div id="ben2">
-  <div class="container section">
+
+<section id="benefit1">
+  <div class="container">
     <div class="row">
-      <div class="col-12 col-xl-4">
-        <h2 class="d-none d-xl-block"><%= t(".benefit2") %></h2>
-        <p class="d-none d-xl-block"><%= t(".description2") %></p>
+      <div class="col-12 col-lg-6">
+        <h2 class="d-block d-md-none"><%= t(".benefit1") %></h2>
+        <%= image_tag "Group 7.png", alt: "alttext", class: "shape-computer" %>
       </div>
-      <div class="col-12 col-xl-8">
-        <h2 class="d-block d-sm-none"><%= t(".benefit2") %></h2>
-        <p class="d-block d-sm-none"><%= t(".description2") %></p>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- fim do benefício 2 -->
-
-<!-- benefício 3 -->
-<div class="container section">
-  <div class="row">
-    <div class="col-12 col-xl-8">
-      <h2 class="d-block d-sm-none"><%= t(".benefit3") %></h2>
-    </div>
-    <div class="col-12 col-xl-4">
-      <h2 class="d-none d-xl-block"><%= t(".benefit3") %></h2>
-      <p><%= t(".description3") %></p>
-    </div>
-  </div>
-</div>
-<!-- fim do benefício 3 -->
-
-<div class="container section">
-  <div class="row my-5">
-    <div class="col-12 col-lx-12 text-center">
-      <h2><%= t(".action_section") %></h2>
-      <a href="#" class="btn btn-primary mt-5"><%= t(".cta") %></a>
-    </div>
-  </div>
-</div>
-
-  <div class="container section">
-    <div class="row media text-center">
-      <div class="col-12 col-xl-12">
+      <div class="col-12 col-lg-6">
+        <h2 class="d-none d-lg-block"><%= t(".benefit1") %></h2>
+        <p class="my-4"><%= t(".description1") %></p>
       </div>
     </div>
   </div>
+</section>
 
-<div class="container section">
-  <div class="row">
-    <div class="col-12">
-      <h2><%= t(".get_help") %></h2>
+<!-- benefício 2 -->
+<section id="benefit1">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <h2 class="d-none d-lg-block"><%= t(".benefit2") %></h2>
+        <p class="d-none d-lg-block my-4"><%= t(".description2") %></p>
+      </div>
+      <div class="col-12 col-lg-6">
+        <h2 class="d-block d-md-none"><%= t(".benefit2") %></h2>
+        <%= image_tag "Group 8.png", alt: "alttext", class: "shape-computer" %>
+        <p class="d-block d-md-none"><%= t(".description2") %></p>
+      </div>
     </div>
-    <div class="d-none d-xl-block">
-      <div class="d-flex flex-wrap">
-        <div class="col-xl-4">
-          <span class="subject-card"><%= t(".math") %></span>
-          <span class="subject-card"><%= t(".essay") %></span>
-        </div>
-        <div class="col-xl-4">
-          <span class="subject-card"><%= t(".history") %></span>
-          <span class="subject-card"><%= t(".biology") %></span>
-        </div>
-        <div class="col-xl-4">
-          <span class="subject-card"><%= t(".chemistry") %></span>
-          <span class="subject-card"><%= t(".physics") %></span>
+  </div>
+</section>
+
+<!-- Matérias -->
+
+<section id="materias">
+  <div class="container text-center">
+    <h2><span><%= t(".stats2") %></span></h2>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="subject-card">
+          <p class="subject-icon"><i class="fas fa-square-root-alt fa-3x"></i></p>
+          <p class="subject"><%= t(".math") %></p>
         </div>
       </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="subject-card">
+          <p class="subject-icon"><i class="fas fa-paragraph fa-3x"></i></p>
+          <p class="subject"><%= t(".essay") %></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="subject-card">
+          <p class="subject-icon"><i class="fas fa-landmark fa-3x"></i></p>
+          <p class="subject"><%= t(".history") %></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="subject-card">
+          <p class="subject-icon"><i class="fas fa-dna fa-3x"></i></p>
+          <p class="subject"><%= t(".biology") %></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="subject-card">
+          <p class="subject-icon"><i class="fas fa-atom fa-3x"></i></p>
+          <p class="subject"><%= t(".chemistry") %></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="subject-card">
+          <p class="subject-icon"><i class="far fa-lightbulb fa-3x"></i></p>
+          <p class="subject"><%= t(".physics") %></p>
+        </div>
+      </div>
     </div>
+    <a href="#" class="btn btn-primary mt-5"><%= t(".cta2") %></a>
   </div>
-  <a href="#" class="btn btn-primary mt-5"><%= t(".cta2") %></a>
-</div>
+</section>
+
+<!-- Testemunhos -->
+
 <div class="container section">
   <div class="row">
     <div class="col-12">

@@ -1,16 +1,30 @@
 // Specific CSS for your home-page
 
+// General
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+
 // Hero Banner
 #hero{
   margin-bottom: 9rem;
+  padding: 13rem 0;
   h1{
-    font-weight: bolder;
+    font-weight: 700;
     font-size: 3.5rem;
     line-height: 4rem;
+    margin-bottom: 2rem;
   }
   h2{
     font-size: 1.5rem;
-    font-weight: lighter;
+    font-weight: 300;
     line-height: 30px;
   }
 
@@ -30,56 +44,64 @@
   background-color: black;
   color: white;
   padding: 5rem 0;
+  margin-bottom: 3rem;
 
   h3{
-    font-weight: bolder;
+    font-weight: 700;
     font-size: 2.5rem;
   }
 }
 
+// benefit 1
 
-
-.news{
-  width: 250px;
-  filter: grayscale(100%);
-}
-#fake_news{
-  width: 120px;
-}
-.media{
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
-  margin: 56px 0;
-  align-items: center;
-  padding-top: 24px;
-}
-
-#banner{
-  background-color: #FFF1CF;
-  padding: 240px 0;
+#benefit1{
+  h2{
+    margin-top: 10rem;
+    font-weight: 600;
+    font-size: 2.5rem;
+  }
+  p{
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 2rem;
+  }
 }
 
-
-.section{
-  padding: 160px 0;
-}
-#ben2{
-  background-color: rgba(255, 211, 105, 0.52);
+.shape-computer{
+  width: 90%;
+  display: inline-block;
 }
 
 
-html,body{
-  height: 100%;
+// Matérias section
+
+#materias{
+  background-color: #FFFCEB;
+  padding: 2rem 0;
+
+  h2{
+    font-weight: 600;
+    font-size: 2.5rem;
+
+    span{
+      border-bottom: #FFE75E 5px solid;
+    }
+  }
+
+  .subject-card{
+    width: 15rem;
+    height: 15rem;
+    background-color: white;
+    margin: 2rem auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+
+    .subject{
+      padding-top: 1rem;
+      font-weight: 600;
+    }
+  }
 }
 
-body{
-  display: flex;
-  flex-direction: column;
-}
-
-.section-heading {
-  font-size: 3rem;
-  font-weight: 700;
-  background: linear-gradient(-45deg, #3db3c5, #274685);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.subject-icon{
+  padding-top: 90px;
 }
