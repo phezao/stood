@@ -24,8 +24,12 @@ en:
       cta2:  "Explore"
 
       wts: "Testimonials"
-      testm-title:   "It was way beyond my expectations!"
-      testm-subtitle:   "The professor is very attentive and he structured his class around my doubt!"
+      testm-title1:   "It was way beyond my expectations!"
+      testm-subtitle1:   "The professor is very attentive and he structured his class around my doubt!"
+      testm-title2:   "Amazing"
+      testm-subtitle2:   "The professor knew so much he could explain like I was 4 years old"
+      testm-title3:   "Beyond this world!"
+      testm-subtitle3:   "Unbelievable how the guy treated me. I just don't know what happend"
 
       us: "About us"
       contact: "Contact us"

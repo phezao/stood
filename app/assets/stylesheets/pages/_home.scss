@@ -55,6 +55,7 @@ body{
 // benefit 1
 
 #benefit1{
+  margin: 6% 0;
   h2{
     margin-top: 10rem;
     font-weight: 600;
@@ -104,4 +105,20 @@ body{
 
 .subject-icon{
   padding-top: 90px;
+}
+
+// Testimonials Section
+#testimonials{
+  padding: 3% 0;
+
+  h2{
+    font-weight: 600;
+    font-size: 2.5rem;
+  }
+
+  img{
+    border-radius: 100%;
+    width: 10%;
+    background-color: #D6EA94;
+  }
 }

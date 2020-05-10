@@ -49,6 +49,7 @@
 </section>
 
 <!-- benefício 2 -->
+
 <section id="benefit1">
   <div class="container">
     <div class="row">
@@ -114,15 +115,36 @@
 
 <!-- Testemunhos -->
 
-<div class="container section">
-  <div class="row">
-    <div class="col-12">
-      <h2><%= t(".wts") %></h2>
-      <ul>
-        <li class="testimonial">
-          <p><%= t(".testm") %></p>
-        </li>
-      </ul>
+<section id="testimonials">
+  <h2 class="text-center"><%= t(".wts") %></h2>
+  <div id="carouselExampleControls" class="carousel slide" >
+    <div class="container text-center">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h3><%= t(".testm-title1") %></h3>
+          <p><%= t(".testm-subtitle1") %></p>
+          <%= image_tag "student.png" %>
+        </div>
+        <div class="carousel-item">
+          <h3><%= t(".testm-title2") %></h3>
+          <p><%= t(".testm-subtitle2") %></p>
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <h3><%= t(".testm-title3") %></h3>
+          <p><%= t(".testm-subtitle3") %></p>
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+      </div>
     </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
-</div>
+</section>
+
