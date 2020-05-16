@@ -1,14 +1,14 @@
 // Specific CSS for your home-page
 
 // General
-html,body{
-  height: 100%;
-  width: 100%;
-}
+// html,body{
+//   height: 100%;
+//   width: 100%;
+// }
 
 body{
-  display: flex;
-  flex-direction: column;
+  // display: flex;
+  // flex-direction: column;
 }
 
 
@@ -28,15 +28,31 @@ body{
     line-height: 30px;
   }
 
-// Image shape in the header
 }
+// Image shape in the header
+
 .shape{
   width: 50%;
   z-index: -1;
   position: absolute;
   left: 50%;
+  bottom: 46%;
 }
+@media(max-width: 960px){
 
+  #hero{
+    padding: 8rem 0;
+  }
+
+  .shape{
+    width: 200px;
+    z-index: -1;
+    position: absolute;
+    left: 58%;
+    bottom: 84%;
+  }
+
+}
 
 // Statistics
 
@@ -56,6 +72,7 @@ body{
 
 #benefit1{
   margin: 6% 0;
+  margin-bottom: 10%;
   h2{
     margin-top: 10rem;
     font-weight: 600;
@@ -72,6 +89,20 @@ body{
   width: 90%;
   display: inline-block;
 }
+
+@media (max-width: 960px) {
+
+  #benefit1{
+    h2{
+      margin-top: 0;
+      margin-bottom: 10%;
+    }
+
+  }
+}
+
+
+
 
 
 // Matérias section
@@ -109,7 +140,7 @@ body{
 
 // Testimonials Section
 #testimonials{
-  padding: 3% 0;
+  padding: 3% 0 13% 0;
 
   h2{
     font-weight: 600;
@@ -117,8 +148,21 @@ body{
   }
 
   img{
+    margin-top: 10%;
     border-radius: 100%;
     width: 10%;
     background-color: #D6EA94;
+  }
+}
+
+@media (max-width: 960px) {
+  #testimonials{
+    margin: 7% auto;
+    h2{
+      padding-bottom: 5%;
+    }
+    img{
+      width: 20%;
+    }
   }
 }
