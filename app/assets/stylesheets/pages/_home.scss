@@ -6,9 +6,8 @@
 //   width: 100%;
 // }
 
-body{
-  // display: flex;
-  // flex-direction: column;
+.page-content{
+  min-height: calc(100vh - 294px);
 }
 
 
@@ -45,11 +44,11 @@ body{
   }
 
   .shape{
-    width: 200px;
+    width: 40%;
     z-index: -1;
     position: absolute;
-    left: 58%;
-    bottom: 84%;
+    left: 60%;
+    bottom: 90%;
   }
 
 }
