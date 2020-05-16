@@ -143,3 +143,8 @@
   </div>
 </section>
 
+<script>
+  window.addEventListener("scroll", function(event){
+    document.querySelector("nav").classList.toggle("sticky", window.scrollY > 0);
+  });
+</script>
