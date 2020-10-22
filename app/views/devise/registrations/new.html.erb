@@ -28,10 +28,6 @@
               <%= f.input :password_confirmation,
                           required: true,
                           input_html: { autocomplete: "new-password" } %>
-              <%= f.collection_radio_buttons :professor,
-                          [[true,'Professor'],[false,'Student']],
-                          :first, :last,
-                          required: true %>
             </div>
 
             <div class="form-actions">

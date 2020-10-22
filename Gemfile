@@ -9,10 +9,6 @@ gem 'puma'
 gem 'rails', '5.2.4.1'
 gem 'redis'
 gem 'wicked'
-gem "activestorage", ">= 5.2.4.3"
-gem "actionview", ">= 5.2.4.4"
-gem "activesupport", ">= 5.2.4.3"
-gem "actionpack", ">= 5.2.4.3"
 
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.12.0'
