@@ -1,17 +1,26 @@
 class AfterSignupController < Wicked::WizardController
-    
+    before_action :set_user    
     steps :university_details, :interests, :description
 
     def show
-        @user = current_user
 
         render_wizard
     end
 
     def update
-        @user = current_user
+        @professor.update(professor_params)
+        render_wizard @professor
+    end
 
-        render_wizard @user
+    private
+
+    def set_user
+        @user = current_user
+        @professor = @user.professor || Professor.create(user: @user)
+    end
+
+    def professor_params
+        params.require(:professor).permit(:university_id)
     end
 
 end

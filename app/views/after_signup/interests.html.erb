@@ -1,1 +1,12 @@
-seus interesses
+<%= simple_form_for(@professor, url: wizard_path, method: :put) do |f| %>
+  <%= f.error_notification %>
+  <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
+
+  <div class="form-inputs">
+    <%= f.association :subjects, as: :check_boxes, label: "Quais matérias gostaria de ensinar?" %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit, "Próximo", class: "btn btn-primary" %>
+  </div>
+<% end %>
